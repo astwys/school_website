@@ -16,7 +16,18 @@ body {
       color: grey; }
       .navbar ul li a:hover {
         color: black; }
+  @media screen and (max-width: 1000px) {
+    .navbar {
+      font-size: 4em;
+      margin: 1.5em; } }
 
-iframe {
-  height: 600px;
-  width: 50%; }
+.timetable {
+  padding-left: 20%; }
+  .timetable iframe {
+    height: 600px;
+    width: 75%; }
+  @media screen and (max-width: 1000px) {
+    .timetable {
+      padding-left: 13%; }
+      .timetable iframe {
+        width: 60%; } }
