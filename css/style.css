@@ -1,0 +1,22 @@
+body {
+  font-family: monospace; }
+
+.navbar {
+  font-size: 2em;
+  margin: 2em; }
+  .navbar ul li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 0.8em;
+    border-right: 2px solid grey; }
+    .navbar ul li:last-child {
+      border-right: none; }
+    .navbar ul li a {
+      text-decoration: none;
+      color: grey; }
+      .navbar ul li a:hover {
+        color: black; }
+
+iframe {
+  height: 600px;
+  width: 50%; }
