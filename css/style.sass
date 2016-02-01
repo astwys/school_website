@@ -1,5 +1,7 @@
 body
   font-family: monospace
+  padding: 0
+  margin: 0
 
 .navbar
   font-size: 2em
@@ -8,7 +10,7 @@ body
     li
       display: inline
       list-style-type: none
-      padding-right: 0.8em
+      padding-right: 15px
       border-right: 2px solid grey
 
       &:last-child
@@ -25,15 +27,37 @@ body
     font-size: 4em
     margin: 1.5em
 
+    ul
+      li
+        display: block
+        border: none
+        padding-bottom: 0.5em
+
 .timetable
-  padding-left: 20%
+  padding-left: 15%
 
   iframe
-    height: 600px
-    width: 75%
+    height: 900px
+    width: 85%
 
   @media screen and (max-width: 1000px)
-    padding-left: 13%
+    padding-left: 15%
 
     iframe
       width: 60%
+
+  #select
+    padding-bottom: 1em
+    a
+      text-decoration: none
+      color: grey
+      font-size: 20px
+
+      &:hover
+        color: black
+
+    @media screen and (max-width: 1000px)
+      padding-bottom: 2em
+
+      a
+        font-size: 3em

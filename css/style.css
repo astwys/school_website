@@ -1,5 +1,7 @@
 body {
-  font-family: monospace; }
+  font-family: monospace;
+  padding: 0;
+  margin: 0; }
 
 .navbar {
   font-size: 2em;
@@ -7,7 +9,7 @@ body {
   .navbar ul li {
     display: inline;
     list-style-type: none;
-    padding-right: 0.8em;
+    padding-right: 15px;
     border-right: 2px solid grey; }
     .navbar ul li:last-child {
       border-right: none; }
@@ -19,15 +21,32 @@ body {
   @media screen and (max-width: 1000px) {
     .navbar {
       font-size: 4em;
-      margin: 1.5em; } }
+      margin: 1.5em; }
+      .navbar ul li {
+        display: block;
+        border: none;
+        padding-bottom: 0.5em; } }
 
 .timetable {
-  padding-left: 20%; }
+  padding-left: 15%; }
   .timetable iframe {
-    height: 600px;
-    width: 75%; }
+    height: 900px;
+    width: 85%; }
   @media screen and (max-width: 1000px) {
     .timetable {
-      padding-left: 13%; }
+      padding-left: 15%; }
       .timetable iframe {
         width: 60%; } }
+  .timetable #select {
+    padding-bottom: 1em; }
+    .timetable #select a {
+      text-decoration: none;
+      color: grey;
+      font-size: 20px; }
+      .timetable #select a:hover {
+        color: black; }
+    @media screen and (max-width: 1000px) {
+      .timetable #select {
+        padding-bottom: 2em; }
+        .timetable #select a {
+          font-size: 3em; } }

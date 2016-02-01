@@ -2,8 +2,10 @@ doctype html
 html(lang=en)
     head
       link(href="/css/style.css" rel="stylesheet")
-      title Timetable
+      title timetable
     body
       include navbar.jade
       .timetable
+        include timetable_select.jade
+        h1 This week
         iframe(src="https://intranet.spengergasse.at/infostundenplan/05/c/c00055.htm")
