@@ -28,10 +28,10 @@ body {
         padding-bottom: 0.5em; } }
 
 .timetable {
-  padding-left: 15%; }
+  padding-left: 25%; }
   .timetable iframe {
     height: 900px;
-    width: 85%; }
+    width: 65%; }
   @media screen and (max-width: 1000px) {
     .timetable {
       padding-left: 15%; }
